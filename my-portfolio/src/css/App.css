@@ -1,0 +1,60 @@
+.app {
+  min-height: 100vh;
+  background-color: #014d4e; /* Deep Teal */
+  color: #e5e7eb; /* Light Gray for text */
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #014d4e; /* Deep Teal */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #d4a017; /* Gold for title */
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #e5e7eb; /* Light Gray for links */
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #d4a017; /* Gold on hover */
+}
+
+.github-button {
+  background-color: #d4a017; /* Gold */
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.github-button:hover {
+  background-color: #b88a00; /* Darker Gold on hover */
+}
+
+.main-content {
+  margin-top: 5rem;
+  width: 100%;
+  max-width: 64rem;
+  padding: 1rem;
+}
